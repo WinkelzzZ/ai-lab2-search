@@ -1,0 +1,5 @@
+﻿depth,branching,total_leaves,minimax_leaves,ab_natural_leaves,ab_best_first_leaves,ab_worst_first_leaves,perfect_order_theory,saving_natural_pct,saving_best_pct,saving_worst_pct,values_agree
+3,3,27,27.0,20.6,11.0,27.0,11,23.7,59.3,0.0,25/25
+3,4,64,64.0,42.76,19.0,64.0,19,33.2,70.3,0.0,25/25
+4,3,81,81.0,43.32,17.0,78.64,17,46.5,79.0,2.9,25/25
+4,4,256,256.0,113.4,31.0,245.2,31,55.7,87.9,4.2,25/25

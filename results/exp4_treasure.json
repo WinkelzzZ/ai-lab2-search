@@ -1,0 +1,734 @@
+{
+  "matrix": {
+    "matrix": {
+      "A": {
+        "A": 0,
+        "B": 12,
+        "T1": 10,
+        "T2": 4,
+        "T3": 8,
+        "T4": 8
+      },
+      "B": {
+        "A": 12,
+        "B": 0,
+        "T1": 8,
+        "T2": 8,
+        "T3": 4,
+        "T4": 10
+      },
+      "T1": {
+        "A": 10,
+        "B": 8,
+        "T1": 0,
+        "T2": 6,
+        "T3": 6,
+        "T4": 12
+      },
+      "T2": {
+        "A": 4,
+        "B": 8,
+        "T1": 6,
+        "T2": 0,
+        "T3": 6,
+        "T4": 6
+      },
+      "T3": {
+        "A": 8,
+        "B": 4,
+        "T1": 6,
+        "T2": 6,
+        "T3": 0,
+        "T4": 6
+      },
+      "T4": {
+        "A": 8,
+        "B": 10,
+        "T1": 12,
+        "T2": 6,
+        "T3": 6,
+        "T4": 0
+      }
+    },
+    "formatted": "        A     B    T1    T2    T3    T4\n   A     0    12    10     4     8     8\n   B    12     0     8     8     4    10\n  T1    10     8     0     6     6    12\n  T2     4     8     6     0     6     6\n  T3     8     4     6     6     0     6\n  T4     8    10    12     6     6     0",
+    "rows": [
+      {
+        "pair": "d(A,B)",
+        "cost": 12,
+        "manhattan_expanded": 13,
+        "manhattan_generated": 19,
+        "dijkstra_expanded": 35
+      },
+      {
+        "pair": "d(A,T1)",
+        "cost": 10,
+        "manhattan_expanded": 14,
+        "manhattan_generated": 19,
+        "dijkstra_expanded": 32
+      },
+      {
+        "pair": "d(A,T2)",
+        "cost": 4,
+        "manhattan_expanded": 5,
+        "manhattan_generated": 7,
+        "dijkstra_expanded": 8
+      },
+      {
+        "pair": "d(A,T3)",
+        "cost": 8,
+        "manhattan_expanded": 9,
+        "manhattan_generated": 14,
+        "dijkstra_expanded": 20
+      },
+      {
+        "pair": "d(A,T4)",
+        "cost": 8,
+        "manhattan_expanded": 9,
+        "manhattan_generated": 12,
+        "dijkstra_expanded": 19
+      },
+      {
+        "pair": "d(B,A)",
+        "cost": 12,
+        "manhattan_expanded": 14,
+        "manhattan_generated": 21,
+        "dijkstra_expanded": 31
+      },
+      {
+        "pair": "d(B,T1)",
+        "cost": 8,
+        "manhattan_expanded": 9,
+        "manhattan_generated": 12,
+        "dijkstra_expanded": 20
+      },
+      {
+        "pair": "d(B,T2)",
+        "cost": 8,
+        "manhattan_expanded": 9,
+        "manhattan_generated": 14,
+        "dijkstra_expanded": 19
+      },
+      {
+        "pair": "d(B,T3)",
+        "cost": 4,
+        "manhattan_expanded": 5,
+        "manhattan_generated": 7,
+        "dijkstra_expanded": 9
+      },
+      {
+        "pair": "d(B,T4)",
+        "cost": 10,
+        "manhattan_expanded": 12,
+        "manhattan_generated": 17,
+        "dijkstra_expanded": 28
+      },
+      {
+        "pair": "d(T1,A)",
+        "cost": 10,
+        "manhattan_expanded": 14,
+        "manhattan_generated": 19,
+        "dijkstra_expanded": 28
+      },
+      {
+        "pair": "d(T1,B)",
+        "cost": 8,
+        "manhattan_expanded": 9,
+        "manhattan_generated": 12,
+        "dijkstra_expanded": 21
+      },
+      {
+        "pair": "d(T1,T2)",
+        "cost": 6,
+        "manhattan_expanded": 7,
+        "manhattan_generated": 11,
+        "dijkstra_expanded": 14
+      },
+      {
+        "pair": "d(T1,T3)",
+        "cost": 6,
+        "manhattan_expanded": 7,
+        "manhattan_generated": 10,
+        "dijkstra_expanded": 12
+      },
+      {
+        "pair": "d(T1,T4)",
+        "cost": 12,
+        "manhattan_expanded": 15,
+        "manhattan_generated": 22,
+        "dijkstra_expanded": 32
+      },
+      {
+        "pair": "d(T2,A)",
+        "cost": 4,
+        "manhattan_expanded": 5,
+        "manhattan_generated": 8,
+        "dijkstra_expanded": 13
+      },
+      {
+        "pair": "d(T2,B)",
+        "cost": 8,
+        "manhattan_expanded": 9,
+        "manhattan_generated": 15,
+        "dijkstra_expanded": 34
+      },
+      {
+        "pair": "d(T2,T1)",
+        "cost": 6,
+        "manhattan_expanded": 8,
+        "manhattan_generated": 13,
+        "dijkstra_expanded": 28
+      },
+      {
+        "pair": "d(T2,T3)",
+        "cost": 6,
+        "manhattan_expanded": 8,
+        "manhattan_generated": 14,
+        "dijkstra_expanded": 25
+      },
+      {
+        "pair": "d(T2,T4)",
+        "cost": 6,
+        "manhattan_expanded": 7,
+        "manhattan_generated": 11,
+        "dijkstra_expanded": 24
+      },
+      {
+        "pair": "d(T3,A)",
+        "cost": 8,
+        "manhattan_expanded": 9,
+        "manhattan_generated": 15,
+        "dijkstra_expanded": 31
+      },
+      {
+        "pair": "d(T3,B)",
+        "cost": 4,
+        "manhattan_expanded": 5,
+        "manhattan_generated": 7,
+        "dijkstra_expanded": 13
+      },
+      {
+        "pair": "d(T3,T1)",
+        "cost": 6,
+        "manhattan_expanded": 7,
+        "manhattan_generated": 11,
+        "dijkstra_expanded": 26
+      },
+      {
+        "pair": "d(T3,T2)",
+        "cost": 6,
+        "manhattan_expanded": 7,
+        "manhattan_generated": 13,
+        "dijkstra_expanded": 24
+      },
+      {
+        "pair": "d(T3,T4)",
+        "cost": 6,
+        "manhattan_expanded": 9,
+        "manhattan_generated": 14,
+        "dijkstra_expanded": 25
+      },
+      {
+        "pair": "d(T4,A)",
+        "cost": 8,
+        "manhattan_expanded": 9,
+        "manhattan_generated": 12,
+        "dijkstra_expanded": 18
+      },
+      {
+        "pair": "d(T4,B)",
+        "cost": 10,
+        "manhattan_expanded": 13,
+        "manhattan_generated": 17,
+        "dijkstra_expanded": 30
+      },
+      {
+        "pair": "d(T4,T1)",
+        "cost": 12,
+        "manhattan_expanded": 14,
+        "manhattan_generated": 21,
+        "dijkstra_expanded": 36
+      },
+      {
+        "pair": "d(T4,T2)",
+        "cost": 6,
+        "manhattan_expanded": 7,
+        "manhattan_generated": 10,
+        "dijkstra_expanded": 12
+      },
+      {
+        "pair": "d(T4,T3)",
+        "cost": 6,
+        "manhattan_expanded": 7,
+        "manhattan_generated": 11,
+        "dijkstra_expanded": 13
+      }
+    ],
+    "symmetric": true,
+    "triangle_inequality": true,
+    "total_expanded_manhattan": 275,
+    "total_expanded_dijkstra": 680
+  },
+  "gains": [
+    {
+      "treasure": "T1",
+      "pos": [
+        0,
+        6
+      ],
+      "value": 9,
+      "d(A,Ti)": 10,
+      "Gain_A": -1,
+      "d(B,Ti)": 8,
+      "Gain_B": 1
+    },
+    {
+      "treasure": "T2",
+      "pos": [
+        2,
+        2
+      ],
+      "value": 6,
+      "d(A,Ti)": 4,
+      "Gain_A": 2,
+      "d(B,Ti)": 8,
+      "Gain_B": -2
+    },
+    {
+      "treasure": "T3",
+      "pos": [
+        4,
+        4
+      ],
+      "value": 7,
+      "d(A,Ti)": 8,
+      "Gain_A": -1,
+      "d(B,Ti)": 4,
+      "Gain_B": 3
+    },
+    {
+      "treasure": "T4",
+      "pos": [
+        6,
+        0
+      ],
+      "value": 7,
+      "d(A,Ti)": 8,
+      "Gain_A": -1,
+      "d(B,Ti)": 10,
+      "Gain_B": -3
+    }
+  ],
+  "horizon": [
+    {
+      "H": 1,
+      "method": "minimax",
+      "best_target": "T2",
+      "best_value": 2,
+      "nodes": 4,
+      "leaves": 4,
+      "cutoffs": 0,
+      "children_skipped": 0,
+      "time_ms": 0.064,
+      "root_values": {
+        "T1": -1,
+        "T2": 2,
+        "T3": -1,
+        "T4": -1
+      },
+      "pv": [
+        [
+          "A",
+          "T2",
+          2
+        ]
+      ]
+    },
+    {
+      "H": 1,
+      "method": "alpha-beta",
+      "best_target": "T2",
+      "best_value": 2,
+      "nodes": 4,
+      "leaves": 4,
+      "cutoffs": 0,
+      "children_skipped": 0,
+      "time_ms": 0.038,
+      "root_values": {
+        "T1": -1,
+        "T2": 2,
+        "T3": -1,
+        "T4": -1
+      },
+      "pv": [
+        [
+          "A",
+          "T2",
+          2
+        ]
+      ]
+    },
+    {
+      "H": 2,
+      "method": "minimax",
+      "best_target": "T2",
+      "best_value": -1,
+      "nodes": 16,
+      "leaves": 12,
+      "cutoffs": 0,
+      "children_skipped": 0,
+      "time_ms": 0.145,
+      "root_values": {
+        "T1": -4,
+        "T2": -1,
+        "T3": -2,
+        "T4": -4
+      },
+      "pv": [
+        [
+          "A",
+          "T2",
+          -1
+        ],
+        [
+          "B",
+          "T3",
+          -1
+        ]
+      ]
+    },
+    {
+      "H": 2,
+      "method": "alpha-beta",
+      "best_target": "T2",
+      "best_value": -1,
+      "nodes": 12,
+      "leaves": 8,
+      "cutoffs": 2,
+      "children_skipped": 4,
+      "time_ms": 0.17,
+      "root_values": {
+        "T1": -4,
+        "T2": -1,
+        "T3": -2,
+        "T4": -4
+      },
+      "pv": [
+        [
+          "A",
+          "T2",
+          -1
+        ],
+        [
+          "B",
+          "T3",
+          -1
+        ]
+      ]
+    },
+    {
+      "H": 3,
+      "method": "minimax",
+      "best_target": "T2",
+      "best_value": 2,
+      "nodes": 40,
+      "leaves": 24,
+      "cutoffs": 0,
+      "children_skipped": 0,
+      "time_ms": 0.674,
+      "root_values": {
+        "T1": -4,
+        "T2": 2,
+        "T3": -1,
+        "T4": -4
+      },
+      "pv": [
+        [
+          "A",
+          "T2",
+          2
+        ],
+        [
+          "B",
+          "T1",
+          2
+        ],
+        [
+          "A",
+          "T3",
+          2
+        ]
+      ]
+    },
+    {
+      "H": 3,
+      "method": "alpha-beta",
+      "best_target": "T2",
+      "best_value": 2,
+      "nodes": 25,
+      "leaves": 13,
+      "cutoffs": 5,
+      "children_skipped": 7,
+      "time_ms": 0.191,
+      "root_values": {
+        "T1": -4,
+        "T2": 2,
+        "T3": -1,
+        "T4": -4
+      },
+      "pv": [
+        [
+          "A",
+          "T2",
+          2
+        ],
+        [
+          "B",
+          "T1",
+          2
+        ],
+        [
+          "A",
+          "T3",
+          2
+        ]
+      ]
+    },
+    {
+      "H": 4,
+      "method": "minimax",
+      "best_target": "T3",
+      "best_value": 3,
+      "nodes": 64,
+      "leaves": 24,
+      "cutoffs": 0,
+      "children_skipped": 0,
+      "time_ms": 0.477,
+      "root_values": {
+        "T1": -5,
+        "T2": 1,
+        "T3": 3,
+        "T4": -7
+      },
+      "pv": [
+        [
+          "A",
+          "T3",
+          3
+        ],
+        [
+          "B",
+          "T1",
+          3
+        ],
+        [
+          "A",
+          "T2",
+          3
+        ],
+        [
+          "B",
+          "T4",
+          3
+        ]
+      ]
+    },
+    {
+      "H": 4,
+      "method": "alpha-beta",
+      "best_target": "T3",
+      "best_value": 3,
+      "nodes": 46,
+      "leaves": 16,
+      "cutoffs": 12,
+      "children_skipped": 6,
+      "time_ms": 0.362,
+      "root_values": {
+        "T1": -5,
+        "T2": 1,
+        "T3": 3,
+        "T4": -7
+      },
+      "pv": [
+        [
+          "A",
+          "T3",
+          3
+        ],
+        [
+          "B",
+          "T1",
+          3
+        ],
+        [
+          "A",
+          "T2",
+          3
+        ],
+        [
+          "B",
+          "T4",
+          3
+        ]
+      ]
+    }
+  ],
+  "ordering": [
+    {
+      "ordering": "natural",
+      "cache": false,
+      "best_target": "T3",
+      "best_value": 3,
+      "nodes": 64,
+      "leaves": 24,
+      "cutoffs": 0,
+      "children_skipped": 0,
+      "cache_hits": 0,
+      "time_ms": 0.323,
+      "method": "minimax"
+    },
+    {
+      "ordering": "natural",
+      "cache": false,
+      "best_target": "T3",
+      "best_value": 3,
+      "nodes": 46,
+      "leaves": 16,
+      "cutoffs": 12,
+      "children_skipped": 6,
+      "cache_hits": 0,
+      "time_ms": 0.258,
+      "method": "alpha-beta"
+    },
+    {
+      "ordering": "natural",
+      "cache": true,
+      "best_target": "T3",
+      "best_value": 3,
+      "nodes": 46,
+      "leaves": 16,
+      "cutoffs": 12,
+      "children_skipped": 6,
+      "cache_hits": 0,
+      "time_ms": 0.281,
+      "method": "alpha-beta"
+    },
+    {
+      "ordering": "greedy",
+      "cache": false,
+      "best_target": "T3",
+      "best_value": 3,
+      "nodes": 49,
+      "leaves": 18,
+      "cutoffs": 13,
+      "children_skipped": 3,
+      "cache_hits": 0,
+      "time_ms": 0.378,
+      "method": "alpha-beta"
+    },
+    {
+      "ordering": "greedy",
+      "cache": true,
+      "best_target": "T3",
+      "best_value": 3,
+      "nodes": 49,
+      "leaves": 18,
+      "cutoffs": 13,
+      "children_skipped": 3,
+      "cache_hits": 0,
+      "time_ms": 0.284,
+      "method": "alpha-beta"
+    },
+    {
+      "ordering": "worst",
+      "cache": false,
+      "best_target": "T3",
+      "best_value": 3,
+      "nodes": 38,
+      "leaves": 13,
+      "cutoffs": 11,
+      "children_skipped": 7,
+      "cache_hits": 0,
+      "time_ms": 0.294,
+      "method": "alpha-beta"
+    },
+    {
+      "ordering": "worst",
+      "cache": true,
+      "best_target": "T3",
+      "best_value": 3,
+      "nodes": 38,
+      "leaves": 13,
+      "cutoffs": 11,
+      "children_skipped": 7,
+      "cache_hits": 0,
+      "time_ms": 0.324,
+      "method": "alpha-beta"
+    },
+    {
+      "ordering": "oracle",
+      "cache": false,
+      "best_target": "T3",
+      "best_value": 3,
+      "nodes": 30,
+      "leaves": 10,
+      "cutoffs": 12,
+      "children_skipped": 8,
+      "cache_hits": 0,
+      "time_ms": 1.041,
+      "method": "alpha-beta"
+    },
+    {
+      "ordering": "oracle",
+      "cache": true,
+      "best_target": "T3",
+      "best_value": 3,
+      "nodes": 30,
+      "leaves": 10,
+      "cutoffs": 12,
+      "children_skipped": 8,
+      "cache_hits": 0,
+      "time_ms": 1.104,
+      "method": "alpha-beta"
+    }
+  ],
+  "saturation": [
+    {
+      "H": 4,
+      "best_target": "T3",
+      "best_value": 3,
+      "nodes": 46,
+      "leaves": 16
+    },
+    {
+      "H": 5,
+      "best_target": "T3",
+      "best_value": 3,
+      "nodes": 46,
+      "leaves": 16
+    },
+    {
+      "H": 6,
+      "best_target": "T3",
+      "best_value": 3,
+      "nodes": 46,
+      "leaves": 16
+    },
+    {
+      "H": 8,
+      "best_target": "T3",
+      "best_value": 3,
+      "nodes": 46,
+      "leaves": 16
+    }
+  ],
+  "expected": {
+    "H2": {
+      "best_target": "T2",
+      "best_value": -1
+    },
+    "H4": {
+      "best_target": "T3",
+      "best_value": 3
+    }
+  }
+}

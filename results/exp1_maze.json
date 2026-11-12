@@ -1,0 +1,1913 @@
+{
+  "official": {
+    "rows": [
+      {
+        "heuristic": "h=0 (Dijkstra)",
+        "tie_break": "h",
+        "expanded": 17,
+        "generated": 18,
+        "max_frontier": 3,
+        "path_length": 8,
+        "steps": 7,
+        "found": true,
+        "time_ms": 0.154,
+        "path": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "heuristic": "Manhattan",
+        "tie_break": "h",
+        "expanded": 14,
+        "generated": 17,
+        "max_frontier": 4,
+        "path_length": 8,
+        "steps": 7,
+        "found": true,
+        "time_ms": 0.099,
+        "path": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "heuristic": "Manhattan",
+        "tie_break": "deep",
+        "expanded": 14,
+        "generated": 17,
+        "max_frontier": 4,
+        "path_length": 8,
+        "steps": 7,
+        "found": true,
+        "time_ms": 0.091,
+        "path": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "heuristic": "Manhattan",
+        "tie_break": "shallow",
+        "expanded": 14,
+        "generated": 16,
+        "max_frontier": 3,
+        "path_length": 8,
+        "steps": 7,
+        "found": true,
+        "time_ms": 0.087,
+        "path": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "heuristic": "greedy best-first(只看 h)",
+        "tie_break": "-",
+        "expanded": 11,
+        "generated": 13,
+        "max_frontier": 3,
+        "path_length": 10,
+        "steps": 9,
+        "found": true,
+        "time_ms": 0.071,
+        "path": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      }
+    ],
+    "expected": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "no_path_case": []
+  },
+  "scaling_rows": [
+    {
+      "size": "8x8",
+      "seed": 0,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 56,
+      "generated": 56,
+      "steps": 14,
+      "time_ms": 0.3598000621423125
+    },
+    {
+      "size": "8x8",
+      "seed": 0,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 15,
+      "generated": 24,
+      "steps": 14,
+      "time_ms": 0.1221999991685152
+    },
+    {
+      "size": "8x8",
+      "seed": 0,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 15,
+      "generated": 25,
+      "steps": 14,
+      "time_ms": 0.10469998233020306
+    },
+    {
+      "size": "8x8",
+      "seed": 1,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 46,
+      "generated": 46,
+      "steps": 16,
+      "time_ms": 0.2794000320136547
+    },
+    {
+      "size": "8x8",
+      "seed": 1,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 24,
+      "generated": 33,
+      "steps": 16,
+      "time_ms": 0.2878999803215265
+    },
+    {
+      "size": "8x8",
+      "seed": 1,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 23,
+      "generated": 37,
+      "steps": 18,
+      "time_ms": 0.20859995856881142
+    },
+    {
+      "size": "8x8",
+      "seed": 2,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 43,
+      "generated": 44,
+      "steps": 14,
+      "time_ms": 0.39900001138448715
+    },
+    {
+      "size": "8x8",
+      "seed": 2,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 21,
+      "generated": 36,
+      "steps": 14,
+      "time_ms": 0.26190001517534256
+    },
+    {
+      "size": "8x8",
+      "seed": 2,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 17,
+      "generated": 31,
+      "steps": 16,
+      "time_ms": 0.1647999742999673
+    },
+    {
+      "size": "8x8",
+      "seed": 3,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 52,
+      "generated": 52,
+      "steps": 14,
+      "time_ms": 0.5113000515848398
+    },
+    {
+      "size": "8x8",
+      "seed": 3,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 20,
+      "generated": 32,
+      "steps": 14,
+      "time_ms": 0.2443999983370304
+    },
+    {
+      "size": "8x8",
+      "seed": 3,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 17,
+      "generated": 29,
+      "steps": 16,
+      "time_ms": 0.16569998115301132
+    },
+    {
+      "size": "8x8",
+      "seed": 4,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 45,
+      "generated": 46,
+      "steps": 14,
+      "time_ms": 0.40040002204477787
+    },
+    {
+      "size": "8x8",
+      "seed": 4,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 15,
+      "generated": 22,
+      "steps": 14,
+      "time_ms": 0.16299996059387922
+    },
+    {
+      "size": "8x8",
+      "seed": 4,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 15,
+      "generated": 25,
+      "steps": 14,
+      "time_ms": 0.12270000297576189
+    },
+    {
+      "size": "8x8",
+      "seed": 5,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 36,
+      "generated": 39,
+      "steps": 16,
+      "time_ms": 0.36479998379945755
+    },
+    {
+      "size": "8x8",
+      "seed": 5,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 27,
+      "generated": 34,
+      "steps": 16,
+      "time_ms": 0.46030001249164343
+    },
+    {
+      "size": "8x8",
+      "seed": 5,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 21,
+      "generated": 31,
+      "steps": 18,
+      "time_ms": 0.18590001855045557
+    },
+    {
+      "size": "8x8",
+      "seed": 6,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 51,
+      "generated": 51,
+      "steps": 14,
+      "time_ms": 0.4342000465840101
+    },
+    {
+      "size": "8x8",
+      "seed": 6,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 23,
+      "generated": 32,
+      "steps": 14,
+      "time_ms": 0.2245999639853835
+    },
+    {
+      "size": "8x8",
+      "seed": 6,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 21,
+      "generated": 33,
+      "steps": 18,
+      "time_ms": 0.17939996905624866
+    },
+    {
+      "size": "8x8",
+      "seed": 7,
+      "heuristic": "h=0",
+      "found": false,
+      "expanded": 1,
+      "generated": 1,
+      "steps": 0,
+      "time_ms": 0.01109996810555458
+    },
+    {
+      "size": "8x8",
+      "seed": 7,
+      "heuristic": "Manhattan",
+      "found": false,
+      "expanded": 1,
+      "generated": 1,
+      "steps": 0,
+      "time_ms": 0.009500072337687016
+    },
+    {
+      "size": "8x8",
+      "seed": 7,
+      "heuristic": "Greedy",
+      "found": false,
+      "expanded": 1,
+      "generated": 1,
+      "steps": 0,
+      "time_ms": 0.007500057108700275
+    },
+    {
+      "size": "8x8",
+      "seed": 8,
+      "heuristic": "h=0",
+      "found": false,
+      "expanded": 42,
+      "generated": 42,
+      "steps": 0,
+      "time_ms": 0.533199985511601
+    },
+    {
+      "size": "8x8",
+      "seed": 8,
+      "heuristic": "Manhattan",
+      "found": false,
+      "expanded": 42,
+      "generated": 51,
+      "steps": 0,
+      "time_ms": 0.4911000141873956
+    },
+    {
+      "size": "8x8",
+      "seed": 8,
+      "heuristic": "Greedy",
+      "found": false,
+      "expanded": 42,
+      "generated": 59,
+      "steps": 0,
+      "time_ms": 0.3747000591829419
+    },
+    {
+      "size": "8x8",
+      "seed": 9,
+      "heuristic": "h=0",
+      "found": false,
+      "expanded": 4,
+      "generated": 4,
+      "steps": 0,
+      "time_ms": 0.056699966080486774
+    },
+    {
+      "size": "8x8",
+      "seed": 9,
+      "heuristic": "Manhattan",
+      "found": false,
+      "expanded": 4,
+      "generated": 4,
+      "steps": 0,
+      "time_ms": 0.04160008393228054
+    },
+    {
+      "size": "8x8",
+      "seed": 9,
+      "heuristic": "Greedy",
+      "found": false,
+      "expanded": 4,
+      "generated": 5,
+      "steps": 0,
+      "time_ms": 0.03409991040825844
+    },
+    {
+      "size": "16x16",
+      "seed": 0,
+      "heuristic": "h=0",
+      "found": false,
+      "expanded": 176,
+      "generated": 176,
+      "steps": 0,
+      "time_ms": 1.9882000051438808
+    },
+    {
+      "size": "16x16",
+      "seed": 0,
+      "heuristic": "Manhattan",
+      "found": false,
+      "expanded": 176,
+      "generated": 224,
+      "steps": 0,
+      "time_ms": 2.108899992890656
+    },
+    {
+      "size": "16x16",
+      "seed": 0,
+      "heuristic": "Greedy",
+      "found": false,
+      "expanded": 176,
+      "generated": 264,
+      "steps": 0,
+      "time_ms": 1.5779000241309404
+    },
+    {
+      "size": "16x16",
+      "seed": 1,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 183,
+      "generated": 184,
+      "steps": 30,
+      "time_ms": 2.1557000000029802
+    },
+    {
+      "size": "16x16",
+      "seed": 1,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 32,
+      "generated": 57,
+      "steps": 30,
+      "time_ms": 0.3762999549508095
+    },
+    {
+      "size": "16x16",
+      "seed": 1,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 32,
+      "generated": 59,
+      "steps": 30,
+      "time_ms": 0.29720005113631487
+    },
+    {
+      "size": "16x16",
+      "seed": 2,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 175,
+      "generated": 177,
+      "steps": 30,
+      "time_ms": 1.8826000159606338
+    },
+    {
+      "size": "16x16",
+      "seed": 2,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 59,
+      "generated": 94,
+      "steps": 30,
+      "time_ms": 0.8170000510290265
+    },
+    {
+      "size": "16x16",
+      "seed": 2,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 47,
+      "generated": 88,
+      "steps": 40,
+      "time_ms": 0.36209996324032545
+    },
+    {
+      "size": "16x16",
+      "seed": 3,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 195,
+      "generated": 195,
+      "steps": 30,
+      "time_ms": 1.8553000409156084
+    },
+    {
+      "size": "16x16",
+      "seed": 3,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 45,
+      "generated": 67,
+      "steps": 30,
+      "time_ms": 0.5782999796792865
+    },
+    {
+      "size": "16x16",
+      "seed": 3,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 41,
+      "generated": 67,
+      "steps": 38,
+      "time_ms": 0.3519000019878149
+    },
+    {
+      "size": "16x16",
+      "seed": 4,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 174,
+      "generated": 174,
+      "steps": 30,
+      "time_ms": 1.6059000045061111
+    },
+    {
+      "size": "16x16",
+      "seed": 4,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 34,
+      "generated": 59,
+      "steps": 30,
+      "time_ms": 0.4268999909982085
+    },
+    {
+      "size": "16x16",
+      "seed": 4,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 34,
+      "generated": 64,
+      "steps": 32,
+      "time_ms": 0.30880002304911613
+    },
+    {
+      "size": "16x16",
+      "seed": 5,
+      "heuristic": "h=0",
+      "found": false,
+      "expanded": 179,
+      "generated": 179,
+      "steps": 0,
+      "time_ms": 1.5678000636398792
+    },
+    {
+      "size": "16x16",
+      "seed": 5,
+      "heuristic": "Manhattan",
+      "found": false,
+      "expanded": 179,
+      "generated": 217,
+      "steps": 0,
+      "time_ms": 1.8842000281438231
+    },
+    {
+      "size": "16x16",
+      "seed": 5,
+      "heuristic": "Greedy",
+      "found": false,
+      "expanded": 179,
+      "generated": 265,
+      "steps": 0,
+      "time_ms": 1.5150000108405948
+    },
+    {
+      "size": "16x16",
+      "seed": 6,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 185,
+      "generated": 186,
+      "steps": 30,
+      "time_ms": 1.7068000743165612
+    },
+    {
+      "size": "16x16",
+      "seed": 6,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 35,
+      "generated": 61,
+      "steps": 30,
+      "time_ms": 0.4830999532714486
+    },
+    {
+      "size": "16x16",
+      "seed": 6,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 35,
+      "generated": 64,
+      "steps": 30,
+      "time_ms": 0.31500007025897503
+    },
+    {
+      "size": "16x16",
+      "seed": 7,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 176,
+      "generated": 177,
+      "steps": 30,
+      "time_ms": 1.5403999714180827
+    },
+    {
+      "size": "16x16",
+      "seed": 7,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 54,
+      "generated": 79,
+      "steps": 30,
+      "time_ms": 0.7631999906152487
+    },
+    {
+      "size": "16x16",
+      "seed": 7,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 45,
+      "generated": 75,
+      "steps": 40,
+      "time_ms": 0.3885000478476286
+    },
+    {
+      "size": "16x16",
+      "seed": 8,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 195,
+      "generated": 195,
+      "steps": 30,
+      "time_ms": 1.7285000067204237
+    },
+    {
+      "size": "16x16",
+      "seed": 8,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 48,
+      "generated": 83,
+      "steps": 30,
+      "time_ms": 0.5721999332308769
+    },
+    {
+      "size": "16x16",
+      "seed": 8,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 37,
+      "generated": 72,
+      "steps": 34,
+      "time_ms": 0.38400001358240843
+    },
+    {
+      "size": "16x16",
+      "seed": 9,
+      "heuristic": "h=0",
+      "found": false,
+      "expanded": 2,
+      "generated": 2,
+      "steps": 0,
+      "time_ms": 0.020999927073717117
+    },
+    {
+      "size": "16x16",
+      "seed": 9,
+      "heuristic": "Manhattan",
+      "found": false,
+      "expanded": 2,
+      "generated": 2,
+      "steps": 0,
+      "time_ms": 0.019499915651977062
+    },
+    {
+      "size": "16x16",
+      "seed": 9,
+      "heuristic": "Greedy",
+      "found": false,
+      "expanded": 2,
+      "generated": 2,
+      "steps": 0,
+      "time_ms": 0.013199984095990658
+    },
+    {
+      "size": "24x24",
+      "seed": 0,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 435,
+      "generated": 435,
+      "steps": 46,
+      "time_ms": 3.758900100365281
+    },
+    {
+      "size": "24x24",
+      "seed": 0,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 67,
+      "generated": 112,
+      "steps": 46,
+      "time_ms": 0.7947999984025955
+    },
+    {
+      "size": "24x24",
+      "seed": 0,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 63,
+      "generated": 115,
+      "steps": 58,
+      "time_ms": 0.6197000620886683
+    },
+    {
+      "size": "24x24",
+      "seed": 1,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 440,
+      "generated": 440,
+      "steps": 46,
+      "time_ms": 3.597700037062168
+    },
+    {
+      "size": "24x24",
+      "seed": 1,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 58,
+      "generated": 110,
+      "steps": 46,
+      "time_ms": 0.5635999841615558
+    },
+    {
+      "size": "24x24",
+      "seed": 1,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 54,
+      "generated": 113,
+      "steps": 52,
+      "time_ms": 0.43120002374053
+    },
+    {
+      "size": "24x24",
+      "seed": 2,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 428,
+      "generated": 428,
+      "steps": 46,
+      "time_ms": 3.595499903894961
+    },
+    {
+      "size": "24x24",
+      "seed": 2,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 80,
+      "generated": 135,
+      "steps": 46,
+      "time_ms": 0.9616999886929989
+    },
+    {
+      "size": "24x24",
+      "seed": 2,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 57,
+      "generated": 108,
+      "steps": 54,
+      "time_ms": 0.7244999287649989
+    },
+    {
+      "size": "24x24",
+      "seed": 3,
+      "heuristic": "h=0",
+      "found": false,
+      "expanded": 443,
+      "generated": 443,
+      "steps": 0,
+      "time_ms": 4.005399998277426
+    },
+    {
+      "size": "24x24",
+      "seed": 3,
+      "heuristic": "Manhattan",
+      "found": false,
+      "expanded": 443,
+      "generated": 576,
+      "steps": 0,
+      "time_ms": 5.166799994185567
+    },
+    {
+      "size": "24x24",
+      "seed": 3,
+      "heuristic": "Greedy",
+      "found": false,
+      "expanded": 443,
+      "generated": 658,
+      "steps": 0,
+      "time_ms": 3.7533000577241182
+    },
+    {
+      "size": "24x24",
+      "seed": 4,
+      "heuristic": "h=0",
+      "found": false,
+      "expanded": 2,
+      "generated": 2,
+      "steps": 0,
+      "time_ms": 0.029699993319809437
+    },
+    {
+      "size": "24x24",
+      "seed": 4,
+      "heuristic": "Manhattan",
+      "found": false,
+      "expanded": 2,
+      "generated": 2,
+      "steps": 0,
+      "time_ms": 0.021999934688210487
+    },
+    {
+      "size": "24x24",
+      "seed": 4,
+      "heuristic": "Greedy",
+      "found": false,
+      "expanded": 2,
+      "generated": 2,
+      "steps": 0,
+      "time_ms": 0.013400102034211159
+    },
+    {
+      "size": "24x24",
+      "seed": 5,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 413,
+      "generated": 415,
+      "steps": 46,
+      "time_ms": 3.908999962732196
+    },
+    {
+      "size": "24x24",
+      "seed": 5,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 49,
+      "generated": 88,
+      "steps": 46,
+      "time_ms": 0.6348999449983239
+    },
+    {
+      "size": "24x24",
+      "seed": 5,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 49,
+      "generated": 95,
+      "steps": 46,
+      "time_ms": 0.44510001316666603
+    },
+    {
+      "size": "24x24",
+      "seed": 6,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 416,
+      "generated": 416,
+      "steps": 46,
+      "time_ms": 3.5945000126957893
+    },
+    {
+      "size": "24x24",
+      "seed": 6,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 53,
+      "generated": 96,
+      "steps": 46,
+      "time_ms": 0.6533000851050019
+    },
+    {
+      "size": "24x24",
+      "seed": 6,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 53,
+      "generated": 106,
+      "steps": 50,
+      "time_ms": 0.5504000000655651
+    },
+    {
+      "size": "24x24",
+      "seed": 7,
+      "heuristic": "h=0",
+      "found": false,
+      "expanded": 1,
+      "generated": 1,
+      "steps": 0,
+      "time_ms": 0.02559996210038662
+    },
+    {
+      "size": "24x24",
+      "seed": 7,
+      "heuristic": "Manhattan",
+      "found": false,
+      "expanded": 1,
+      "generated": 1,
+      "steps": 0,
+      "time_ms": 0.008600065484642982
+    },
+    {
+      "size": "24x24",
+      "seed": 7,
+      "heuristic": "Greedy",
+      "found": false,
+      "expanded": 1,
+      "generated": 1,
+      "steps": 0,
+      "time_ms": 0.004800036549568176
+    },
+    {
+      "size": "24x24",
+      "seed": 8,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 445,
+      "generated": 445,
+      "steps": 46,
+      "time_ms": 4.467099905014038
+    },
+    {
+      "size": "24x24",
+      "seed": 8,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 68,
+      "generated": 124,
+      "steps": 46,
+      "time_ms": 1.0399000020697713
+    },
+    {
+      "size": "24x24",
+      "seed": 8,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 54,
+      "generated": 114,
+      "steps": 52,
+      "time_ms": 0.5535000236704946
+    },
+    {
+      "size": "24x24",
+      "seed": 9,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 401,
+      "generated": 407,
+      "steps": 46,
+      "time_ms": 3.7098999600857496
+    },
+    {
+      "size": "24x24",
+      "seed": 9,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 106,
+      "generated": 168,
+      "steps": 46,
+      "time_ms": 1.3763000024482608
+    },
+    {
+      "size": "24x24",
+      "seed": 9,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 53,
+      "generated": 96,
+      "steps": 52,
+      "time_ms": 0.5090000340715051
+    },
+    {
+      "size": "32x32",
+      "seed": 0,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 762,
+      "generated": 763,
+      "steps": 62,
+      "time_ms": 8.395100012421608
+    },
+    {
+      "size": "32x32",
+      "seed": 0,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 91,
+      "generated": 163,
+      "steps": 62,
+      "time_ms": 1.34529999922961
+    },
+    {
+      "size": "32x32",
+      "seed": 0,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 70,
+      "generated": 140,
+      "steps": 66,
+      "time_ms": 0.708000035956502
+    },
+    {
+      "size": "32x32",
+      "seed": 1,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 779,
+      "generated": 779,
+      "steps": 62,
+      "time_ms": 7.46890006121248
+    },
+    {
+      "size": "32x32",
+      "seed": 1,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 97,
+      "generated": 163,
+      "steps": 62,
+      "time_ms": 1.0758999269455671
+    },
+    {
+      "size": "32x32",
+      "seed": 1,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 77,
+      "generated": 146,
+      "steps": 72,
+      "time_ms": 0.9547999361529946
+    },
+    {
+      "size": "32x32",
+      "seed": 2,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 758,
+      "generated": 758,
+      "steps": 62,
+      "time_ms": 7.077199988998473
+    },
+    {
+      "size": "32x32",
+      "seed": 2,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 118,
+      "generated": 196,
+      "steps": 62,
+      "time_ms": 1.4661999884992838
+    },
+    {
+      "size": "32x32",
+      "seed": 2,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 91,
+      "generated": 168,
+      "steps": 78,
+      "time_ms": 0.8535999804735184
+    },
+    {
+      "size": "32x32",
+      "seed": 3,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 756,
+      "generated": 757,
+      "steps": 62,
+      "time_ms": 6.258199922740459
+    },
+    {
+      "size": "32x32",
+      "seed": 3,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 100,
+      "generated": 161,
+      "steps": 62,
+      "time_ms": 1.3822000473737717
+    },
+    {
+      "size": "32x32",
+      "seed": 3,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 102,
+      "generated": 175,
+      "steps": 84,
+      "time_ms": 1.0314000537618995
+    },
+    {
+      "size": "32x32",
+      "seed": 4,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 757,
+      "generated": 757,
+      "steps": 62,
+      "time_ms": 7.027399959042668
+    },
+    {
+      "size": "32x32",
+      "seed": 4,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 95,
+      "generated": 161,
+      "steps": 62,
+      "time_ms": 1.0630999458953738
+    },
+    {
+      "size": "32x32",
+      "seed": 4,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 79,
+      "generated": 150,
+      "steps": 70,
+      "time_ms": 0.7680000271648169
+    },
+    {
+      "size": "32x32",
+      "seed": 5,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 746,
+      "generated": 747,
+      "steps": 62,
+      "time_ms": 7.551299990154803
+    },
+    {
+      "size": "32x32",
+      "seed": 5,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 101,
+      "generated": 168,
+      "steps": 62,
+      "time_ms": 1.299499999731779
+    },
+    {
+      "size": "32x32",
+      "seed": 5,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 142,
+      "generated": 247,
+      "steps": 108,
+      "time_ms": 1.487000030465424
+    },
+    {
+      "size": "32x32",
+      "seed": 6,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 717,
+      "generated": 717,
+      "steps": 62,
+      "time_ms": 6.1388000613078475
+    },
+    {
+      "size": "32x32",
+      "seed": 6,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 73,
+      "generated": 124,
+      "steps": 62,
+      "time_ms": 0.5695000290870667
+    },
+    {
+      "size": "32x32",
+      "seed": 6,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 71,
+      "generated": 136,
+      "steps": 68,
+      "time_ms": 0.47339999582618475
+    },
+    {
+      "size": "32x32",
+      "seed": 7,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 729,
+      "generated": 729,
+      "steps": 64,
+      "time_ms": 4.3299999088048935
+    },
+    {
+      "size": "32x32",
+      "seed": 7,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 273,
+      "generated": 385,
+      "steps": 64,
+      "time_ms": 1.9610000308603048
+    },
+    {
+      "size": "32x32",
+      "seed": 7,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 100,
+      "generated": 158,
+      "steps": 78,
+      "time_ms": 0.6113999988883734
+    },
+    {
+      "size": "32x32",
+      "seed": 8,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 784,
+      "generated": 785,
+      "steps": 62,
+      "time_ms": 4.734500078484416
+    },
+    {
+      "size": "32x32",
+      "seed": 8,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 231,
+      "generated": 353,
+      "steps": 62,
+      "time_ms": 1.745699904859066
+    },
+    {
+      "size": "32x32",
+      "seed": 8,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 69,
+      "generated": 133,
+      "steps": 68,
+      "time_ms": 0.49079989548772573
+    },
+    {
+      "size": "32x32",
+      "seed": 9,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 715,
+      "generated": 718,
+      "steps": 62,
+      "time_ms": 4.320799955166876
+    },
+    {
+      "size": "32x32",
+      "seed": 9,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 103,
+      "generated": 162,
+      "steps": 62,
+      "time_ms": 0.7787999929860234
+    },
+    {
+      "size": "32x32",
+      "seed": 9,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 90,
+      "generated": 155,
+      "steps": 80,
+      "time_ms": 0.5719000473618507
+    },
+    {
+      "size": "48x48",
+      "seed": 0,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 1730,
+      "generated": 1730,
+      "steps": 94,
+      "time_ms": 11.346799903549254
+    },
+    {
+      "size": "48x48",
+      "seed": 0,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 134,
+      "generated": 232,
+      "steps": 94,
+      "time_ms": 1.1119000846520066
+    },
+    {
+      "size": "48x48",
+      "seed": 0,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 114,
+      "generated": 217,
+      "steps": 106,
+      "time_ms": 0.7736999541521072
+    },
+    {
+      "size": "48x48",
+      "seed": 1,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 1739,
+      "generated": 1740,
+      "steps": 94,
+      "time_ms": 11.750799953006208
+    },
+    {
+      "size": "48x48",
+      "seed": 1,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 182,
+      "generated": 294,
+      "steps": 94,
+      "time_ms": 1.4943999703973532
+    },
+    {
+      "size": "48x48",
+      "seed": 1,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 120,
+      "generated": 225,
+      "steps": 110,
+      "time_ms": 0.8366999682039022
+    },
+    {
+      "size": "48x48",
+      "seed": 2,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 1740,
+      "generated": 1740,
+      "steps": 94,
+      "time_ms": 12.342100031673908
+    },
+    {
+      "size": "48x48",
+      "seed": 2,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 183,
+      "generated": 310,
+      "steps": 94,
+      "time_ms": 1.5234999591484666
+    },
+    {
+      "size": "48x48",
+      "seed": 2,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 124,
+      "generated": 248,
+      "steps": 114,
+      "time_ms": 0.8969000773504376
+    },
+    {
+      "size": "48x48",
+      "seed": 3,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 1714,
+      "generated": 1714,
+      "steps": 94,
+      "time_ms": 10.488100000657141
+    },
+    {
+      "size": "48x48",
+      "seed": 3,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 200,
+      "generated": 318,
+      "steps": 94,
+      "time_ms": 1.5650000423192978
+    },
+    {
+      "size": "48x48",
+      "seed": 3,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 171,
+      "generated": 302,
+      "steps": 140,
+      "time_ms": 1.1322000063955784
+    },
+    {
+      "size": "48x48",
+      "seed": 4,
+      "heuristic": "h=0",
+      "found": false,
+      "expanded": 1,
+      "generated": 1,
+      "steps": 0,
+      "time_ms": 0.0074999406933784485
+    },
+    {
+      "size": "48x48",
+      "seed": 4,
+      "heuristic": "Manhattan",
+      "found": false,
+      "expanded": 1,
+      "generated": 1,
+      "steps": 0,
+      "time_ms": 0.006300047971308231
+    },
+    {
+      "size": "48x48",
+      "seed": 4,
+      "heuristic": "Greedy",
+      "found": false,
+      "expanded": 1,
+      "generated": 1,
+      "steps": 0,
+      "time_ms": 0.004300032742321491
+    },
+    {
+      "size": "48x48",
+      "seed": 5,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 1718,
+      "generated": 1718,
+      "steps": 94,
+      "time_ms": 10.570000042207539
+    },
+    {
+      "size": "48x48",
+      "seed": 5,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 202,
+      "generated": 333,
+      "steps": 94,
+      "time_ms": 1.6201999969780445
+    },
+    {
+      "size": "48x48",
+      "seed": 5,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 103,
+      "generated": 190,
+      "steps": 100,
+      "time_ms": 0.6805999437347054
+    },
+    {
+      "size": "48x48",
+      "seed": 6,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 1699,
+      "generated": 1699,
+      "steps": 94,
+      "time_ms": 10.443300008773804
+    },
+    {
+      "size": "48x48",
+      "seed": 6,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 231,
+      "generated": 380,
+      "steps": 94,
+      "time_ms": 1.8727999413385987
+    },
+    {
+      "size": "48x48",
+      "seed": 6,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 117,
+      "generated": 225,
+      "steps": 108,
+      "time_ms": 0.7921999786049128
+    },
+    {
+      "size": "48x48",
+      "seed": 7,
+      "heuristic": "h=0",
+      "found": false,
+      "expanded": 10,
+      "generated": 10,
+      "steps": 0,
+      "time_ms": 0.06210000719875097
+    },
+    {
+      "size": "48x48",
+      "seed": 7,
+      "heuristic": "Manhattan",
+      "found": false,
+      "expanded": 10,
+      "generated": 11,
+      "steps": 0,
+      "time_ms": 0.061400001868605614
+    },
+    {
+      "size": "48x48",
+      "seed": 7,
+      "heuristic": "Greedy",
+      "found": false,
+      "expanded": 10,
+      "generated": 13,
+      "steps": 0,
+      "time_ms": 0.05279993638396263
+    },
+    {
+      "size": "48x48",
+      "seed": 8,
+      "heuristic": "h=0",
+      "found": true,
+      "expanded": 1702,
+      "generated": 1702,
+      "steps": 94,
+      "time_ms": 10.843800031580031
+    },
+    {
+      "size": "48x48",
+      "seed": 8,
+      "heuristic": "Manhattan",
+      "found": true,
+      "expanded": 181,
+      "generated": 294,
+      "steps": 94,
+      "time_ms": 1.575400005094707
+    },
+    {
+      "size": "48x48",
+      "seed": 8,
+      "heuristic": "Greedy",
+      "found": true,
+      "expanded": 124,
+      "generated": 228,
+      "steps": 114,
+      "time_ms": 0.8434000192210078
+    },
+    {
+      "size": "48x48",
+      "seed": 9,
+      "heuristic": "h=0",
+      "found": false,
+      "expanded": 2,
+      "generated": 2,
+      "steps": 0,
+      "time_ms": 0.018900027498602867
+    },
+    {
+      "size": "48x48",
+      "seed": 9,
+      "heuristic": "Manhattan",
+      "found": false,
+      "expanded": 2,
+      "generated": 2,
+      "steps": 0,
+      "time_ms": 0.01279998105019331
+    },
+    {
+      "size": "48x48",
+      "seed": 9,
+      "heuristic": "Greedy",
+      "found": false,
+      "expanded": 2,
+      "generated": 2,
+      "steps": 0,
+      "time_ms": 0.009200070053339005
+    }
+  ],
+  "aggregate": [
+    {
+      "size": "8x8",
+      "heuristic": "h=0",
+      "solved": "7/10",
+      "avg_expanded": 37.6,
+      "avg_expanded_solved": 47.0,
+      "avg_steps": 14.57,
+      "avg_time_ms": 0.335
+    },
+    {
+      "size": "8x8",
+      "heuristic": "Manhattan",
+      "solved": "7/10",
+      "avg_expanded": 19.2,
+      "avg_expanded_solved": 20.7,
+      "avg_steps": 14.57,
+      "avg_time_ms": 0.231
+    },
+    {
+      "size": "8x8",
+      "heuristic": "Greedy",
+      "solved": "7/10",
+      "avg_expanded": 17.6,
+      "avg_expanded_solved": 18.4,
+      "avg_steps": 16.29,
+      "avg_time_ms": 0.155
+    },
+    {
+      "size": "16x16",
+      "heuristic": "h=0",
+      "solved": "7/10",
+      "avg_expanded": 164.0,
+      "avg_expanded_solved": 183.3,
+      "avg_steps": 30.0,
+      "avg_time_ms": 1.605
+    },
+    {
+      "size": "16x16",
+      "heuristic": "Manhattan",
+      "solved": "7/10",
+      "avg_expanded": 66.4,
+      "avg_expanded_solved": 43.9,
+      "avg_steps": 30.0,
+      "avg_time_ms": 0.803
+    },
+    {
+      "size": "16x16",
+      "heuristic": "Greedy",
+      "solved": "7/10",
+      "avg_expanded": 62.8,
+      "avg_expanded_solved": 38.7,
+      "avg_steps": 34.86,
+      "avg_time_ms": 0.551
+    },
+    {
+      "size": "24x24",
+      "heuristic": "h=0",
+      "solved": "7/10",
+      "avg_expanded": 342.4,
+      "avg_expanded_solved": 425.4,
+      "avg_steps": 46.0,
+      "avg_time_ms": 3.069
+    },
+    {
+      "size": "24x24",
+      "heuristic": "Manhattan",
+      "solved": "7/10",
+      "avg_expanded": 92.7,
+      "avg_expanded_solved": 68.7,
+      "avg_steps": 46.0,
+      "avg_time_ms": 1.122
+    },
+    {
+      "size": "24x24",
+      "heuristic": "Greedy",
+      "solved": "7/10",
+      "avg_expanded": 82.9,
+      "avg_expanded_solved": 54.7,
+      "avg_steps": 52.0,
+      "avg_time_ms": 0.76
+    },
+    {
+      "size": "32x32",
+      "heuristic": "h=0",
+      "solved": "10/10",
+      "avg_expanded": 750.3,
+      "avg_expanded_solved": 750.3,
+      "avg_steps": 62.2,
+      "avg_time_ms": 6.33
+    },
+    {
+      "size": "32x32",
+      "heuristic": "Manhattan",
+      "solved": "10/10",
+      "avg_expanded": 128.2,
+      "avg_expanded_solved": 128.2,
+      "avg_steps": 62.2,
+      "avg_time_ms": 1.269
+    },
+    {
+      "size": "32x32",
+      "heuristic": "Greedy",
+      "solved": "10/10",
+      "avg_expanded": 89.1,
+      "avg_expanded_solved": 89.1,
+      "avg_steps": 77.2,
+      "avg_time_ms": 0.795
+    },
+    {
+      "size": "48x48",
+      "heuristic": "h=0",
+      "solved": "7/10",
+      "avg_expanded": 1205.5,
+      "avg_expanded_solved": 1720.3,
+      "avg_steps": 94.0,
+      "avg_time_ms": 7.787
+    },
+    {
+      "size": "48x48",
+      "heuristic": "Manhattan",
+      "solved": "7/10",
+      "avg_expanded": 132.6,
+      "avg_expanded_solved": 187.6,
+      "avg_steps": 94.0,
+      "avg_time_ms": 1.084
+    },
+    {
+      "size": "48x48",
+      "heuristic": "Greedy",
+      "solved": "7/10",
+      "avg_expanded": 88.6,
+      "avg_expanded_solved": 124.7,
+      "avg_steps": 113.14,
+      "avg_time_ms": 0.602
+    }
+  ]
+}

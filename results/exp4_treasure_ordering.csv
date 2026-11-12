@@ -1,0 +1,10 @@
+﻿ordering,cache,best_target,best_value,nodes,leaves,cutoffs,children_skipped,cache_hits,time_ms,method
+natural,False,T3,3,64,24,0,0,0,0.323,minimax
+natural,False,T3,3,46,16,12,6,0,0.258,alpha-beta
+natural,True,T3,3,46,16,12,6,0,0.281,alpha-beta
+greedy,False,T3,3,49,18,13,3,0,0.378,alpha-beta
+greedy,True,T3,3,49,18,13,3,0,0.284,alpha-beta
+worst,False,T3,3,38,13,11,7,0,0.294,alpha-beta
+worst,True,T3,3,38,13,11,7,0,0.324,alpha-beta
+oracle,False,T3,3,30,10,12,8,0,1.041,alpha-beta
+oracle,True,T3,3,30,10,12,8,0,1.104,alpha-beta

@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.zip
+docs/实验二报告_详细版.pdf
+docs/实验二报告_详细版.docx
+docs/实验二报告_详细版.md
+docs/report.css

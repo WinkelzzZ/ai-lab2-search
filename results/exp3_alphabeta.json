@@ -1,0 +1,281 @@
+{
+  "official": {
+    "tree": {
+      "total_nodes": 15,
+      "total_leaves": 8
+    },
+    "minimax": {
+      "value": 5,
+      "method": "minimax",
+      "nodes_visited": 15,
+      "leaves_evaluated": 8,
+      "internal_visited": 7,
+      "cutoffs": 0,
+      "children_skipped": 0,
+      "leaves_skipped": 0,
+      "total_leaves": 8,
+      "total_nodes": 15,
+      "leaf_skip_ratio": 0.0
+    },
+    "alpha_beta": {
+      "value": 5,
+      "method": "alpha-beta",
+      "nodes_visited": 14,
+      "leaves_evaluated": 7,
+      "internal_visited": 7,
+      "cutoffs": 2,
+      "children_skipped": 1,
+      "leaves_skipped": 1,
+      "total_leaves": 8,
+      "total_nodes": 15,
+      "leaf_skip_ratio": 0.125
+    },
+    "trace": [
+      {
+        "path": "root.0.0.0",
+        "depth": 3,
+        "kind": "leaf",
+        "value": 3,
+        "alpha": "-inf",
+        "beta": "+inf"
+      },
+      {
+        "path": "root.0.0.0",
+        "depth": 3,
+        "kind": "return",
+        "parent": "MAX",
+        "value": 3,
+        "alpha": 3,
+        "beta": "+inf",
+        "cut": false
+      },
+      {
+        "path": "root.0.0.1",
+        "depth": 3,
+        "kind": "leaf",
+        "value": 5,
+        "alpha": 3,
+        "beta": "+inf"
+      },
+      {
+        "path": "root.0.0.1",
+        "depth": 3,
+        "kind": "return",
+        "parent": "MAX",
+        "value": 5,
+        "alpha": 5,
+        "beta": "+inf",
+        "cut": false
+      },
+      {
+        "path": "root.0.0",
+        "depth": 2,
+        "kind": "return",
+        "parent": "MIN",
+        "value": 5,
+        "alpha": "-inf",
+        "beta": 5,
+        "cut": false
+      },
+      {
+        "path": "root.0.1.0",
+        "depth": 3,
+        "kind": "leaf",
+        "value": 6,
+        "alpha": "-inf",
+        "beta": 5
+      },
+      {
+        "path": "root.0.1.0",
+        "depth": 3,
+        "kind": "return",
+        "parent": "MAX",
+        "value": 6,
+        "alpha": 6,
+        "beta": 5,
+        "cut": true
+      },
+      {
+        "path": "root.0.1",
+        "depth": 2,
+        "kind": "return",
+        "parent": "MIN",
+        "value": 6,
+        "alpha": "-inf",
+        "beta": 5,
+        "cut": false
+      },
+      {
+        "path": "root.0",
+        "depth": 1,
+        "kind": "return",
+        "parent": "MAX",
+        "value": 5,
+        "alpha": 5,
+        "beta": "+inf",
+        "cut": false
+      },
+      {
+        "path": "root.1.0.0",
+        "depth": 3,
+        "kind": "leaf",
+        "value": 6,
+        "alpha": 5,
+        "beta": "+inf"
+      },
+      {
+        "path": "root.1.0.0",
+        "depth": 3,
+        "kind": "return",
+        "parent": "MAX",
+        "value": 6,
+        "alpha": 6,
+        "beta": "+inf",
+        "cut": false
+      },
+      {
+        "path": "root.1.0.1",
+        "depth": 3,
+        "kind": "leaf",
+        "value": 9,
+        "alpha": 6,
+        "beta": "+inf"
+      },
+      {
+        "path": "root.1.0.1",
+        "depth": 3,
+        "kind": "return",
+        "parent": "MAX",
+        "value": 9,
+        "alpha": 9,
+        "beta": "+inf",
+        "cut": false
+      },
+      {
+        "path": "root.1.0",
+        "depth": 2,
+        "kind": "return",
+        "parent": "MIN",
+        "value": 9,
+        "alpha": 5,
+        "beta": 9,
+        "cut": false
+      },
+      {
+        "path": "root.1.1.0",
+        "depth": 3,
+        "kind": "leaf",
+        "value": 1,
+        "alpha": 5,
+        "beta": 9
+      },
+      {
+        "path": "root.1.1.0",
+        "depth": 3,
+        "kind": "return",
+        "parent": "MAX",
+        "value": 1,
+        "alpha": 5,
+        "beta": 9,
+        "cut": false
+      },
+      {
+        "path": "root.1.1.1",
+        "depth": 3,
+        "kind": "leaf",
+        "value": 2,
+        "alpha": 5,
+        "beta": 9
+      },
+      {
+        "path": "root.1.1.1",
+        "depth": 3,
+        "kind": "return",
+        "parent": "MAX",
+        "value": 2,
+        "alpha": 5,
+        "beta": 9,
+        "cut": false
+      },
+      {
+        "path": "root.1.1",
+        "depth": 2,
+        "kind": "return",
+        "parent": "MIN",
+        "value": 2,
+        "alpha": 5,
+        "beta": 2,
+        "cut": true
+      },
+      {
+        "path": "root.1",
+        "depth": 1,
+        "kind": "return",
+        "parent": "MAX",
+        "value": 2,
+        "alpha": 5,
+        "beta": "+inf",
+        "cut": false
+      }
+    ],
+    "json_input_value": 5
+  },
+  "ordering": [
+    {
+      "depth": 3,
+      "branching": 3,
+      "total_leaves": 27,
+      "minimax_leaves": 27.0,
+      "ab_natural_leaves": 20.6,
+      "ab_best_first_leaves": 11.0,
+      "ab_worst_first_leaves": 27.0,
+      "perfect_order_theory": 11,
+      "saving_natural_pct": 23.7,
+      "saving_best_pct": 59.3,
+      "saving_worst_pct": 0.0,
+      "values_agree": "25/25"
+    },
+    {
+      "depth": 3,
+      "branching": 4,
+      "total_leaves": 64,
+      "minimax_leaves": 64.0,
+      "ab_natural_leaves": 42.76,
+      "ab_best_first_leaves": 19.0,
+      "ab_worst_first_leaves": 64.0,
+      "perfect_order_theory": 19,
+      "saving_natural_pct": 33.2,
+      "saving_best_pct": 70.3,
+      "saving_worst_pct": 0.0,
+      "values_agree": "25/25"
+    },
+    {
+      "depth": 4,
+      "branching": 3,
+      "total_leaves": 81,
+      "minimax_leaves": 81.0,
+      "ab_natural_leaves": 43.32,
+      "ab_best_first_leaves": 17.0,
+      "ab_worst_first_leaves": 78.64,
+      "perfect_order_theory": 17,
+      "saving_natural_pct": 46.5,
+      "saving_best_pct": 79.0,
+      "saving_worst_pct": 2.9,
+      "values_agree": "25/25"
+    },
+    {
+      "depth": 4,
+      "branching": 4,
+      "total_leaves": 256,
+      "minimax_leaves": 256.0,
+      "ab_natural_leaves": 113.4,
+      "ab_best_first_leaves": 31.0,
+      "ab_worst_first_leaves": 245.2,
+      "perfect_order_theory": 31,
+      "saving_natural_pct": 55.7,
+      "saving_best_pct": 87.9,
+      "saving_worst_pct": 4.2,
+      "values_agree": "25/25"
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "ida_vs_astar": [
+    {
+      "size": "8x8",
+      "solved": 7,
+      "astar_expanded": 20.6,
+      "astar_peak_states": 31.4,
+      "ida_generations": 30.0,
+      "ida_iterations": 1.1,
+      "ida_peak_path_states": 15.3,
+      "ida_gmap_states": 24.3,
+      "generations_ratio": 1.46,
+      "path_depth_over_astar_states": 0.486,
+      "cost_identical": true,
+      "astar_ms": 0.216,
+      "ida_ms": 0.188
+    },
+    {
+      "size": "12x12",
+      "solved": 6,
+      "astar_expanded": 32.7,
+      "astar_peak_states": 52.7,
+      "ida_generations": 46.8,
+      "ida_iterations": 1.0,
+      "ida_peak_path_states": 23.0,
+      "ida_gmap_states": 42.3,
+      "generations_ratio": 1.43,
+      "path_depth_over_astar_states": 0.437,
+      "cost_identical": true,
+      "astar_ms": 0.237,
+      "ida_ms": 0.229
+    },
+    {
+      "size": "16x16",
+      "solved": 2,
+      "astar_expanded": 55.5,
+      "astar_peak_states": 85.0,
+      "ida_generations": 82.0,
+      "ida_iterations": 1.0,
+      "ida_peak_path_states": 31.0,
+      "ida_gmap_states": 71.0,
+      "generations_ratio": 1.48,
+      "path_depth_over_astar_states": 0.365,
+      "cost_identical": true,
+      "astar_ms": 0.466,
+      "ida_ms": 0.375
+    },
+    {
+      "size": "20x20",
+      "solved": 5,
+      "astar_expanded": 66.4,
+      "astar_peak_states": 107.2,
+      "ida_generations": 97.2,
+      "ida_iterations": 1.0,
+      "ida_peak_path_states": 39.0,
+      "ida_gmap_states": 86.6,
+      "generations_ratio": 1.46,
+      "path_depth_over_astar_states": 0.364,
+      "cost_identical": true,
+      "astar_ms": 0.731,
+      "ida_ms": 0.545
+    },
+    {
+      "size": "24x24",
+      "solved": 6,
+      "astar_expanded": 72.7,
+      "astar_peak_states": 124.3,
+      "ida_generations": 109.8,
+      "ida_iterations": 1.0,
+      "ida_peak_path_states": 47.0,
+      "ida_gmap_states": 96.5,
+      "generations_ratio": 1.51,
+      "path_depth_over_astar_states": 0.378,
+      "cost_identical": true,
+      "astar_ms": 0.712,
+      "ida_ms": 0.536
+    }
+  ],
+  "weighted_astar": [
+    {
+      "weight": 1.0,
+      "instances": 12,
+      "avg_expanded": 55.2,
+      "avg_cost": 30.17,
+      "avg_suboptimality": 1.0,
+      "worst_suboptimality": 1.0,
+      "optimal_rate": 1.0
+    },
+    {
+      "weight": 1.5,
+      "instances": 12,
+      "avg_expanded": 41.9,
+      "avg_cost": 31.0,
+      "avg_suboptimality": 1.0274,
+      "worst_suboptimality": 1.0667,
+      "optimal_rate": 0.583
+    },
+    {
+      "weight": 2.0,
+      "instances": 12,
+      "avg_expanded": 40.4,
+      "avg_cost": 32.17,
+      "avg_suboptimality": 1.0663,
+      "worst_suboptimality": 1.2667,
+      "optimal_rate": 0.333
+    },
+    {
+      "weight": 4.0,
+      "instances": 12,
+      "avg_expanded": 39.2,
+      "avg_cost": 33.0,
+      "avg_suboptimality": 1.0941,
+      "worst_suboptimality": 1.2667,
+      "optimal_rate": 0.167
+    },
+    {
+      "weight": 8.0,
+      "instances": 12,
+      "avg_expanded": 39.2,
+      "avg_cost": 33.0,
+      "avg_suboptimality": 1.0941,
+      "worst_suboptimality": 1.2667,
+      "optimal_rate": 0.167
+    },
+    {
+      "weight": 16.0,
+      "instances": 12,
+      "avg_expanded": 39.2,
+      "avg_cost": 33.0,
+      "avg_suboptimality": 1.0941,
+      "worst_suboptimality": 1.2667,
+      "optimal_rate": 0.167
+    }
+  ],
+  "tie_break": [
+    {
+      "size": "16x16",
+      "solved": 5,
+      "avg_expanded_h": 45.2,
+      "avg_steps_h": 30.0,
+      "avg_expanded_deep": 45.2,
+      "avg_steps_deep": 30.0,
+      "avg_expanded_shallow": 118.2,
+      "avg_steps_shallow": 30.0,
+      "shallow_vs_deep_pct": 161.5
+    },
+    {
+      "size": "24x24",
+      "solved": 5,
+      "avg_expanded_h": 90.2,
+      "avg_steps_h": 46.0,
+      "avg_expanded_deep": 90.2,
+      "avg_steps_deep": 46.0,
+      "avg_expanded_shallow": 256.4,
+      "avg_steps_shallow": 46.0,
+      "shallow_vs_deep_pct": 184.3
+    },
+    {
+      "size": "32x32",
+      "solved": 5,
+      "avg_expanded_h": 189.0,
+      "avg_steps_h": 62.8,
+      "avg_expanded_deep": 189.0,
+      "avg_steps_deep": 62.8,
+      "avg_expanded_shallow": 462.8,
+      "avg_steps_shallow": 62.8,
+      "shallow_vs_deep_pct": 144.9
+    }
+  ],
+  "treasure_sensitivity": {
+    "rows": [
+      {
+        "changed": "T2",
+        "new_value": 1,
+        "H4_best_target": "T3",
+        "H4_best_value": 4,
+        "H2_best_target": "T3"
+      },
+      {
+        "changed": "T2",
+        "new_value": 2,
+        "H4_best_target": "T3",
+        "H4_best_value": 3,
+        "H2_best_target": "T3"
+      },
+      {
+        "changed": "T2",
+        "new_value": 3,
+        "H4_best_target": "T3",
+        "H4_best_value": 2,
+        "H2_best_target": "T3"
+      },
+      {
+        "changed": "T2",
+        "new_value": 4,
+        "H4_best_target": "T3",
+        "H4_best_value": 1,
+        "H2_best_target": "T3"
+      },
+      {
+        "changed": "T2",
+        "new_value": 5,
+        "H4_best_target": "T3",
+        "H4_best_value": 2,
+        "H2_best_target": "T2"
+      },
+      {
+        "changed": "T2",
+        "new_value": 6,
+        "H4_best_target": "T3",
+        "H4_best_value": 3,
+        "H2_best_target": "T2"
+      },
+      {
+        "changed": "T2",
+        "new_value": 7,
+        "H4_best_target": "T2",
+        "H4_best_value": 2,
+        "H2_best_target": "T2"
+      },
+      {
+        "changed": "T2",
+        "new_value": 8,
+        "H4_best_target": "T2",
+        "H4_best_value": 3,
+        "H2_best_target": "T2"
+      },
+      {
+        "changed": "T2",
+        "new_value": 9,
+        "H4_best_target": "T2",
+        "H4_best_value": 4,
+        "H2_best_target": "T2"
+      },
+      {
+        "changed": "T2",
+        "new_value": 10,
+        "H4_best_target": "T2",
+        "H4_best_value": 5,
+        "H2_best_target": "T2"
+      },
+      {
+        "changed": "T2",
+        "new_value": 11,
+        "H4_best_target": "T2",
+        "H4_best_value": 6,
+        "H2_best_target": "T2"
+      },
+      {
+        "changed": "T2",
+        "new_value": 12,
+        "H4_best_target": "T2",
+        "H4_best_value": 7,
+        "H2_best_target": "T2"
+      },
+      {
+        "changed": "T3",
+        "new_value": 1,
+        "H4_best_target": "T2",
+        "H4_best_value": 7,
+        "H2_best_target": "T1"
+      },
+      {
+        "changed": "T3",
+        "new_value": 2,
+        "H4_best_target": "T2",
+        "H4_best_value": 6,
+        "H2_best_target": "T1"
+      },
+      {
+        "changed": "T3",
+        "new_value": 3,
+        "H4_best_target": "T2",
+        "H4_best_value": 5,
+        "H2_best_target": "T2"
+      },
+      {
+        "changed": "T3",
+        "new_value": 4,
+        "H4_best_target": "T2",
+        "H4_best_value": 4,
+        "H2_best_target": "T2"
+      },
+      {
+        "changed": "T3",
+        "new_value": 5,
+        "H4_best_target": "T2",
+        "H4_best_value": 3,
+        "H2_best_target": "T2"
+      },
+      {
+        "changed": "T3",
+        "new_value": 6,
+        "H4_best_target": "T2",
+        "H4_best_value": 2,
+        "H2_best_target": "T2"
+      },
+      {
+        "changed": "T3",
+        "new_value": 7,
+        "H4_best_target": "T3",
+        "H4_best_value": 3,
+        "H2_best_target": "T2"
+      },
+      {
+        "changed": "T3",
+        "new_value": 8,
+        "H4_best_target": "T3",
+        "H4_best_value": 4,
+        "H2_best_target": "T3"
+      },
+      {
+        "changed": "T3",
+        "new_value": 9,
+        "H4_best_target": "T3",
+        "H4_best_value": 5,
+        "H2_best_target": "T3"
+      },
+      {
+        "changed": "T3",
+        "new_value": 10,
+        "H4_best_target": "T3",
+        "H4_best_value": 6,
+        "H2_best_target": "T3"
+      },
+      {
+        "changed": "T3",
+        "new_value": 11,
+        "H4_best_target": "T3",
+        "H4_best_value": 7,
+        "H2_best_target": "T3"
+      },
+      {
+        "changed": "T3",
+        "new_value": 12,
+        "H4_best_target": "T3",
+        "H4_best_value": 8,
+        "H2_best_target": "T3"
+      }
+    ],
+    "flips": {
+      "T2_flip_at": 7,
+      "T3_flip_at": 7
+    }
+  }
+}
